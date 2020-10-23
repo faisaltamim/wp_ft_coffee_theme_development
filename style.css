@@ -1,0 +1,72 @@
+/*
+Theme Name: Ft Coffee
+Theme URI: http://facebook.com/faisaltamim.ft
+Author: FaisalTamim
+Author URI: http://facebook.com/faisaltamim.ft
+Description: The theme was made for websites business.It's a amazing theme.Enjoy it!
+Version: 1.0.0
+Text Domain: ft_coffee
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+
+/*custom css*/ 
+/*all post image design*/
+a.myPostImg img {
+    max-width: 350px;
+    height: 220px;
+    border: 3px solid black;
+}
+/*single post image design*/
+span.mySingleImg img {
+    max-width: 750px;
+    height: auto;
+    border: 3px solid black;
+}
+
+/*custom comments*/ 
+.myCustomComment textarea#comment {
+    max-width: 580px;
+    min-width: 580px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.myCustomComment input#submit {
+    padding: 5px 11px 5px 11px;
+    background: #0f92efdb;
+    color: white;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.myCustomComment li {
+    list-style-type: none;
+}
+.myCustomComment .avatar.avatar-32.photo {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.TeamMember img {
+    height: 250px;
+}
+
+.date_cat ul{
+    display: inline-block;
+}.date_cat ul li{
+    list-style-type:none;
+}
+#galleryLiImg a.b-link-stripe.b-animate-go.thickbox {
+    max-width: 350px;
+    max-height: 400px;
+}
+mark.hilite {
+    background: #9200ec;
+    color: white;
+}
+
+.banner-1 img{
+    width: 100%!important;
+    height:auto!important;
+}
